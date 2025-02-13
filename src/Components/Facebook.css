@@ -1,0 +1,769 @@
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: row-reverse; */
+    position: relative;
+ 
+ }
+ 
+ .right{
+    height: 100vh;
+    width: 60%;
+    padding: 100px;  
+    position: relative;
+    background-color: #ffffff;
+ 
+ }
+ 
+ .right .head{
+    position: absolute;
+    color: blue;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 30vh;
+    margin-left: 6vw;
+    
+ }
+ 
+ .right .bottom{
+    margin-top: 42vh;
+    margin-left: 6vw;
+    position: absolute;
+    font-size: 30px;
+    font-weight: 480;
+ }
+ 
+ .left{ 
+    position: relative; 
+    height: 70vh;
+    top: 10vh;
+    width: 40%;
+    padding: 100px;
+ 
+ }
+ 
+ .form{
+    background-color: rgb(235, 229, 229);
+    justify-content: space-evenly;
+    position: absolute;
+    width: 28vw;
+    height: 54vh;
+    border: 1px solid rgb(210, 224, 224) ;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-left: -7vw;
+    text-shadow: 500px;
+    box-shadow: -5px 2px 10px 5px rgba(128, 128, 128, 0.192);
+ }
+ 
+ .btn{
+   
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color:  #ffffff;
+    width: 26vw;
+    height: 7vh;
+    margin-left: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+ 
+ }
+ 
+ .btn:hover{
+    background-color: rgb(60, 106, 231);
+ }
+ 
+ .email{
+    height: 7vh;
+    margin-left: 1vw;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+ }
+ 
+ 
+ .pass{
+    height: 7vh;
+    margin-left: 1vw;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 15px;
+    
+ }
+ 
+ .fp{
+    color: blue;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-bottom: 2px solid  #dfd2d2;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+ }
+ 
+ .fp:hover{
+    text-decoration: underline;
+ }
+ 
+ .btn2{
+    position: relative;
+    background-color: rgb(9, 199, 9);
+    color: #ffffff;
+    width: 12vw;
+    height: 7vh;
+    top: -65px;
+    margin-left: 8vw;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ 
+ .btn2:hover{
+    background-color: rgba(9, 155, 33, 0.753);
+ }
+ 
+ .bottomline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2vh;
+    font-size: 15px;
+ }
+ 
+ .text-link{
+    color: #ffffff;
+    text-decoration: none;
+ }
+ 
+ /* ----------------------------------------------- SIGN - UP ---------------------------------------------- */
+ 
+ .main2{
+    height: 750px;
+    display: grid;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(220, 228, 227);
+ 
+ }
+ 
+ .header{
+    position: relative;
+    justify-items: center;
+    align-content: center;
+    margin-left: 40vw;
+    margin-top: -5vh;
+    font-size: 55px;
+    color: blue;
+ 
+ }
+ 
+ .form2{
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 32vw;
+    margin-top: -20vh;
+    border-radius: 9px;
+    width: 33vw;
+    height: 600px;
+ 
+ }
+ 
+ .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .firstline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6vh;
+    box-shadow: -2px 2px 2px #e6dede;
+    border-radius: 5px;
+    padding: 7px;
+ 
+ }
+ 
+ .name{
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 7px;
+ 
+ }
+ 
+ .surname{
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 7px;
+    margin-left: 12px;
+ }
+ 
+ .dob{
+    margin-left: 10px;
+ }
+ 
+ .date{
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    border-radius: 5px;
+ }
+ 
+ 
+ .month{
+    height: 30px;
+    width: 100px;
+    margin-left: 65px;
+    font-size: large;
+    border-radius: 5px;
+ 
+ }
+ 
+ 
+ .year{
+    height: 30px;
+    width: 100px;
+    margin-left: 65px;
+    font-size: large;
+    border-radius: 5px;
+ 
+ }
+ 
+ .gender{
+    margin-left: 10px;
+ }
+ 
+ .male{
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 7vw;
+    padding: 5px;
+    display: inline-flex;
+ }
+ 
+ .female{
+    margin-left: 17px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 8vw;
+    padding: 5px;
+    display: inline-flex;
+ 
+ }
+ 
+ .trans{
+    margin-left: 17px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 11vw;
+    padding: 5px;
+    display: inline-flex;
+ 
+ 
+ }
+ 
+ .text{
+    margin-left: 10px;
+    width: 30vw;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+ }
+ 
+ .text1{
+    margin-left: 10px;
+    width: 30vw;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+ }
+ 
+ .last{
+    margin-left: 10px;
+    font-size: 12px;
+ }
+ 
+ .last1{
+    margin-left: 10px;
+    font-size: 12px;
+ 
+ }
+ 
+ .btn3{
+    background-color: green;
+    color: #ffffff;
+    width: 13vw;
+    height: 5vh;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    margin-left: 10vw;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ 
+ .btn3:hover{
+    background-color: rgb(10, 131, 42);
+ }
+ 
+ .acc{
+    margin-left: 10vw;
+    cursor: pointer;
+    font-weight: 499;
+ }
+ 
+ .text-link1{
+    color: rgba(0, 0, 255, 0.897);
+    text-decoration: none;
+ }
+ 
+ /*------------------------------------------------ Home Page -----------------------------------------------*/
+ 
+ .main3{
+       height: 168vh;
+       position: relative;
+       align-items: center;
+       justify-content: space-between;
+       background-color: rgb(220, 228, 227);
+ }
+ .nav{
+    top: 0px;
+    position: fixed;
+    width: 100vw;
+    height: 15vh;
+    color: #ffffff;
+    background-color: blue;
+    font-size: xx-large;
+    z-index: 10;
+    border-radius: 10px;
+ }
+ 
+ .sidenav{
+ 
+    position: relative;
+    top: 12vh;
+    width: 20vw;
+    height: 1000px;
+    background-color: #ffffff;
+ }
+ 
+ .fb{
+    font-size: 40px;
+    margin-left: 20px;
+    display: flex;
+    margin-top: -50px;
+    font-weight: 500;
+ }
+ 
+ .searchbar{
+    width: 500px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+    border-radius: 20px;
+    height: 35px;
+    margin-top: 40px;
+    border: none;
+ }
+ 
+ .searchicon{
+    margin-left: 27vw;
+    color: gray;
+    margin-top: -70px;
+    display: flex;
+ }
+ .hp{
+    margin-left: 65vw;
+    font-size: 15px;
+    margin-top: -15px;
+ }
+ 
+ .tl{
+    margin-left: 72vw;
+    font-size: 16px;
+    margin-top: -32px;
+ }
+ 
+ .person{
+    color: #ffffff;
+    margin-left: 80vw;
+    margin-top: -7vh;
+    display: flex;
+    font-size: 30px;
+ }
+ 
+ .super{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 1115px;
+    margin-top: -35px;
+ }
+ 
+ .sup1{
+    color: #ffffff;
+    margin-top: -12vh;
+    display: flex;
+    font-size: 15px;
+ 
+ }
+ 
+ .msg{
+    margin-left: 84vw;
+    top: -30px;
+    position: relative;
+ }
+ 
+ 
+ .super1{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 1175px;
+    margin-top: -50px;
+ }
+ 
+ .sup2{
+    color: #ffffff;
+    margin-left: 2px;
+    margin-top: -20px;
+    display: flex;
+    font-size: 15px;
+ 
+ }
+ 
+ .bell{
+    margin-left: 25px;
+    position: relative;
+    top: -30px;
+ 
+ }
+ 
+ .super2{
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 1227px;
+    margin-top: -50px;
+    
+ }
+ 
+ .sup3{
+    color: #ffffff;
+    margin-left: 2px;
+    margin-top: -20px;
+    display: flex;
+    font-size: 15px;
+ 
+ }
+ 
+ .img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 1275px;
+    margin-top: -63px;
+    display: flex;
+ }
+ 
+ .feed{
+    margin-left: 1vw;
+    margin-top: 6vh;
+ }
+ 
+ .feed1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ 
+ 
+ .chat{
+    margin-left: 1vw;
+ }
+ .chat1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ .video{
+    margin-left: 1vw;
+ }
+ .video1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ .group{
+    margin-left: 1vw;
+ }
+ .group1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ .bookmark{
+    margin-left: 1vw;
+ }
+ .bookmark1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ .question{
+    margin-left: 1vw;
+ }
+ .question1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ .job{
+    margin-left: 1vw;
+ }
+ .job1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ .event{
+    margin-left: 1vw;
+ }
+ .event1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ }
+ .course{
+    margin-left: 1vw;
+ }
+ .course1{
+    margin-left: 3vw;
+    margin-top: -25px;
+ 
+ }
+ .sm{
+ 
+    margin-left: 5vw;
+    background-color: rgb(220, 228, 227);
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    width: 8vw;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 2vh;
+ }
+ 
+ .bujji{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 1vw;
+ }
+ .bujji1{
+    margin-left: 7vw;
+    margin-top: -35px;
+ }
+ .vicky{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 1vw;
+    margin-top: 2vh;
+ }
+ .vicky1{
+    margin-left: 7vw;
+    margin-top: -35px;
+ }
+ .hanu{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 1vw;
+    margin-top: 2vh;
+ }
+ .hanu1{
+    margin-left: 7vw;
+    margin-top: -35px;
+ }
+ .dhanu{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 1vw;
+    margin-top: 2vh;
+ }
+ .dhanu1{
+    margin-left: 7vw;
+    margin-top: -35px;
+ }
+ 
+ .caption{
+ 
+    position: relative;
+    width: 45vw;
+    height: 180px;
+    display: flex;
+    background-color: #ffffff;
+    top: -138vh;
+    margin-left: 22vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+ }
+ 
+ .img1{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 30px;
+ }
+ .title{
+    margin-top: 45px;
+    margin-left: 20px;
+    color: gray;
+ }
+ 
+ .hr{
+    width: 570px;
+    margin-top: 15vh;
+    margin-left: -19vw;
+ }
+ .photo{
+    margin-top: 20vh;
+    margin-left: -560px;
+ }
+ .photo1{
+    margin-top: 130px;
+    margin-left: 5px;
+ }
+ .tag{
+    margin-top: 20vh;
+    margin-left: 30px;
+ }
+ .tag1{
+    margin-top: 130px;
+    margin-left: 5px;
+ 
+ }
+ .loc{
+    margin-top: 20vh;
+    margin-left: 30px;
+ }
+ .loc1{
+    margin-top: 130px;
+    margin-left: 5px;
+ }
+ .smiley{
+    margin-top: 20vh;
+    margin-left: 30px;
+ }
+ .smiley1{
+    margin-top: 130px;
+    margin-left: 5px;
+ }
+ .share{
+    background-color: green;
+    color: #ffffff;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 19vh;
+    margin-left: 5vw;
+ }
+ 
+ .feed2{
+    
+    position: relative;
+    width: 45vw;
+    height: 460px;
+    display: flex;
+    background-color: #ffffff;
+    top: -135vh;
+    margin-left: 22vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px;
+ }
+ 
+ .profile{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 25px;
+ }
+ .pname{
+    margin-top: 35px;
+    margin-left: 20px;
+    font-weight: 650;
+    font-size: 18px;
+ }
+ .th{
+    margin-top: 35px;
+    color: gray;
+ }
+ .zh{
+    margin-top: 100px;
+    margin-left: -295px;
+ 
+ }
+ 
+ .z9{
+    margin-top: 150px;
+    margin-left: -195px;
+    height: 300px;
+    width: 575px;
+   
+ }
+ .bujji2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 70vw;
+    margin-top: -1525px;
+    display: flex;
+ }
+ .hanu2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -68px;
+    display: flex;
+    margin-left: 73vw;
+ }
+ 
+ .bday{
+    margin-top: -40px;
+    margin-left: 77vw;
+ }
+ 
+ .mc{
+    height: 430px;
+    width: 370px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 70vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+ }
